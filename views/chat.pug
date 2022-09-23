@@ -3,8 +3,9 @@ html
     link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous")
   body.d-flex.text-center.flex-column.align-items-center
     h1.w-100.p-3.bg-primary.text-white.font-bold CHATTING
-    div.w-50.h-75.p-5.bg-secondary.text-bottom.overflow-auto
-      p.p-2.bg-warning.fw-bold.text-black Hi
+    div.w-50.h-75.p-5.bg-light.text-dark.text-bottom.overflow-auto
+      p.p-2.bg-white.fw-bold.text-black Hi
     form.w-50(action="/chat")
       input.w-50.m-3.p-3(type="text" placeholder="채팅을 입력하세요")
       a.p-3.btn.btn-primary 보내기
+  script(src="public/chat.js") 
