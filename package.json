@@ -23,6 +23,7 @@
     "koa-pug": "^5.0.0",
     "koa-route": "^3.2.0",
     "koa-static": "^5.0.0",
-    "koa-websocket": "^7.0.0"
+    "koa-websocket": "^7.0.0",
+    "mongodb": "^4.10.0"
   }
 }
