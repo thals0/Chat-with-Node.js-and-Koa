@@ -90,11 +90,19 @@
   });
 
   // keyup: 엔터(13) 눌렀다 때는 순간, keydown: 누르는 순간
-  inputEl?.addEventListener('keyup', (event) => {
+  inputEl.addEventListener('keyup', (event) => {
     if (event.keyCode === 13) {
       btn?.click();
     }
   });
+
+  // inputEl?.addEventListener('keyup', (event) => {
+  //   if (event.keyCode === 13) {
+  //     intervalCall1000(() => {
+  //       btn?.click();
+  //     });
+  //   }
+  // });
 
   // 클라이언트에서 통신 보내기
   // socket server가 열리면 socket.send
